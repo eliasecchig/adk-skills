@@ -26,9 +26,10 @@ For deeper details, consult these reference files in `references/`:
 
 - **`cloud-run.md`** — Scaling defaults, Dockerfile, session types, networking
 - **`agent-engine.md`** — deploy.py CLI, AdkApp pattern, Terraform resource, deployment metadata, CI/CD differences
-- **`observability.md`** — Cloud Trace, Cloud Logging, BigQuery analytics configuration
 - **`terraform-patterns.md`** — Custom infrastructure, IAM, state management, importing resources
 - **`event-driven.md`** — Pub/Sub, Eventarc, BigQuery Remote Function triggers via custom `fast_api_app.py` endpoints
+
+> **Observability:** See the **adk-observability-guide** skill for Cloud Trace, prompt-response logging, BigQuery Analytics, and third-party integrations.
 
 ---
 
@@ -246,16 +247,7 @@ Format: `ENV_VAR=SECRET_ID` or `ENV_VAR=SECRET_ID:VERSION` (defaults to latest).
 
 ## Observability
 
-Two tiers of observability are available:
-
-| Tier | Scope | Default |
-|------|-------|---------|
-| **Agent Telemetry (Cloud Trace)** | Distributed tracing — execution flow, latency, errors | Always enabled, all templates |
-| **Prompt-Response Logging** | GenAI interactions → GCS, BigQuery, Cloud Logging | ADK agents only; disabled locally, enabled in deployed environments |
-
-Additionally, the **BigQuery Agent Analytics Plugin** (`--bq-analytics` at scaffold time) provides structured event logging for conversational analytics, LLM-as-judge evals, and custom dashboards.
-
-For detailed configuration (privacy modes, environment behavior, verification, BQ Analytics Plugin setup), see `references/observability.md`.
+See the **adk-observability-guide** skill for observability configuration (Cloud Trace, prompt-response logging, BigQuery Analytics, third-party integrations).
 
 ---
 

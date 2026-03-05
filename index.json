@@ -17,8 +17,13 @@
     },
     {
       "name": "adk-deploy-guide",
-      "description": "ADK deployment guide — Agent Engine, Cloud Run, GKE, CI/CD pipelines, secrets, observability, and production workflows.",
-      "files": ["SKILL.md", "references/agent-engine.md", "references/cloud-run.md", "references/event-driven.md", "references/observability.md", "references/terraform-patterns.md"]
+      "description": "ADK deployment guide — Agent Engine, Cloud Run, GKE, CI/CD pipelines, secrets, and production workflows.",
+      "files": ["SKILL.md", "references/agent-engine.md", "references/cloud-run.md", "references/event-driven.md", "references/terraform-patterns.md"]
+    },
+    {
+      "name": "adk-observability-guide",
+      "description": "ADK observability guide — Cloud Trace, Cloud Logging, third-party integrations, and debugging production agents.",
+      "files": ["SKILL.md", "references/cloud-trace-and-logging.md", "references/third-party.md"]
     },
     {
       "name": "adk-scaffold",
