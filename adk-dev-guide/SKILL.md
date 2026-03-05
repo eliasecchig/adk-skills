@@ -196,4 +196,3 @@ For non-scaffolded projects, use the ADK CLI equivalents.
 > ```
 > Do NOT run this check on every session — only when you suspect stale skills
 > are causing problems.
-
