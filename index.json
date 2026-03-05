@@ -1,0 +1,29 @@
+{
+  "skills": [
+    {
+      "name": "adk-dev-guide",
+      "description": "ADK development lifecycle and coding guidelines — spec-driven workflow, code preservation rules, model selection, and troubleshooting.",
+      "files": ["SKILL.md"]
+    },
+    {
+      "name": "adk-cheatsheet",
+      "description": "ADK API quick reference for Python — agent types, tool definitions, orchestration patterns, callbacks, and state management.",
+      "files": ["SKILL.md", "references/python.md"]
+    },
+    {
+      "name": "adk-eval-guide",
+      "description": "ADK evaluation methodology — eval metrics, evalset schema, LLM-as-judge, tool trajectory scoring, and common failure causes.",
+      "files": ["SKILL.md", "references/builtin-tools-eval.md", "references/criteria-guide.md", "references/multimodal-eval.md", "references/user-simulation.md"]
+    },
+    {
+      "name": "adk-deploy-guide",
+      "description": "ADK deployment guide — Agent Engine, Cloud Run, GKE, CI/CD pipelines, secrets, observability, and production workflows.",
+      "files": ["SKILL.md", "references/agent-engine.md", "references/cloud-run.md", "references/event-driven.md", "references/observability.md", "references/terraform-patterns.md"]
+    },
+    {
+      "name": "adk-scaffold",
+      "description": "ADK project scaffolding with Agent Starter Pack CLI — requirements gathering, DESIGN_SPEC template, project creation and enhancement.",
+      "files": ["SKILL.md"]
+    }
+  ]
+}
